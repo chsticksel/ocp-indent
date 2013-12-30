@@ -123,8 +123,11 @@ let syntax_extensions = [
   ];
   "cstruct", [
     "cstruct", TYPE;
+  ];
+  "debug", [
+    "debug", LET;
   ]
-]
+  ]
 
 let keyword_table =
   let t = Hashtbl.create 149 in
